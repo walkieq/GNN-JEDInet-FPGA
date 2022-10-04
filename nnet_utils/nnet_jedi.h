@@ -919,7 +919,7 @@ namespace nnet {
     } // function end
 
     template<class data_T, class res_T, typename CONFIG_T, typename CONFIG_T_DNN1, typename CONFIG_T_DNN2>
-    void jedi_fusion_dnn1_2layer_debug(
+    void jedi_fusion_dnn1_2layer_no_fsm(
             data_T in1[CONFIG_T::N_o_p][CONFIG_T::P_p],
             res_T O[CONFIG_T_DNN2::N_o_p][CONFIG_T_DNN2::D_o_p],
             data_T w1[],
